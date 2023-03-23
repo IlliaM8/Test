@@ -1,0 +1,12 @@
+.register {
+  background-color: #f8f8f8;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  .register__container {
+    flex-direction: column;
+    gap: 50px;
+    .register__title {
+      text-align: center;
+    }
+  }
+}

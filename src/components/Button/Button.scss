@@ -1,0 +1,15 @@
+.button {
+  width: 100%;
+  height: 100%;
+  background-color: #f4e041;
+  border-radius: 80px;
+  transform: all 0.5s ease;
+  color: black;
+  &:disabled {
+    color: white;
+    background: #b4b4b4;
+  }
+  &:hover:not([disabled]) {
+    background: #ffe302;
+  }
+}

@@ -1,0 +1,19 @@
+.tooltip__wrapper {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  .tooltip__tip {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 4px;
+    padding: 0 16px 0 16px;
+    white-space: nowrap;
+    z-index: 123123;
+  }
+}

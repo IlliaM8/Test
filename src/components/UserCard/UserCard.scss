@@ -1,0 +1,54 @@
+.userCard {
+  width: 328px;
+  height: 254px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+
+  .userCard__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    p {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .userCard__img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .userCard__name {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .userCard {
+    width: 328px;
+    height: 254px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .userCard {
+    width: 344px;
+    height: 254px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .userCard {
+    width: 288px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .userCard {
+    width: 370px;
+  }
+}

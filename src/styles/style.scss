@@ -1,0 +1,40 @@
+@import "./reset";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+#root {
+  position: relative;
+}
+
+@mixin container($width) {
+  [class*="__container"] {
+    max-width: $width;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+[class*="__title"] {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  @include container(328px);
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  @include container(704px);
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  @include container(904px);
+}
+@media only screen and (min-width: 1025px) {
+  @include container(1170px);
+}

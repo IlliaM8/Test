@@ -1,0 +1,28 @@
+.description {
+  height: 650px;
+  background: url("./assets/background.png") center / cover no-repeat;
+  .description__container {
+    align-items: center;
+    justify-content: center;
+    .description__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 380px;
+      text-align: center;
+      .description__title {
+        color: white;
+        margin-bottom: 21px;
+      }
+      .desciption__text {
+        color: #ffffff;
+        margin-bottom: 32px;
+      }
+      .desciption__button {
+        width: 100px;
+        height: 34px;
+      }
+    }
+  }
+}

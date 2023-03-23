@@ -1,0 +1,22 @@
+.header {
+  height: 60px;
+
+  .header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__logo {
+      display: flex;
+      gap: 2px;
+    }
+    .header__buttons {
+      display: flex;
+      gap: 10px;
+      .header__btn {
+        width: 100px;
+        height: 34px;
+      }
+    }
+  }
+}
